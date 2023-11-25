@@ -5,8 +5,7 @@ Cross Platform Application Development Assignment.
 ## Getting Started
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/chithrac/Task-List-App/tree/master
+    https://github.com/chithrac/Task-List-App/tree/master
 
 2. Install dependencies:
     flutter pub get
@@ -23,6 +22,7 @@ Cross Platform Application Development Assignment.
 - In the View page, edit and delete icons are provided to perform corresponding functions.
 - On click of Edit button, it navigates to Edit page. Once editted data is saved, it navigates back to Task list and displays updated data.
 - On click of Delete button, it deletes the task and returns to Task list page and displays updated data.
+- Added loader when we navigate between pages for smooth functioning.
 
 ## Code file path
 assignment_app\lib\screens
