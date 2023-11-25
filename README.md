@@ -1,16 +1,25 @@
 # assignment_app
 
-A new Flutter project.
+Cross Platform Application Development Assignment.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/chithrac/Task-List-App/tree/master
 
-A few resources to get you started if this is your first Flutter project:
+2. Install dependencies:
+    flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Usage:
+    flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features added
+
+- On initial load, I'm displaying Task List. 
+- A (+) button is given in the bottom of the page to navigate to Add Task page.
+- After a new task is created it navigates back to Task List page and displays updates task details.
+- On click of each Task, it navigates to a View page for it.
+- In the View page, edit and delete icons are provided to perform corresponding functions.
+- On click of Edit button, it navigates to Edit page. Once editted data is saved, it navigates back to Task list and displays updated data.
+- On click of Delete button, it deletes the task and returns to Task list page and displays updated data.
