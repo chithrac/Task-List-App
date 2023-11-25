@@ -23,3 +23,6 @@ Cross Platform Application Development Assignment.
 - In the View page, edit and delete icons are provided to perform corresponding functions.
 - On click of Edit button, it navigates to Edit page. Once editted data is saved, it navigates back to Task list and displays updated data.
 - On click of Delete button, it deletes the task and returns to Task list page and displays updated data.
+
+## Code file path
+assignment_app\lib\screens
